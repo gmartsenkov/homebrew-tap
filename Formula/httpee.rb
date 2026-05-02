@@ -1,25 +1,25 @@
 class Httpee < Formula
   desc "Run HTTP requests from TOML templates"
   homepage "https://github.com/gmartsenkov/httpee"
-  version "0.1.4"
+  version "0.1.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/gmartsenkov/httpee/releases/download/v0.1.4/httpee-aarch64-apple-darwin.tar.xz"
-      sha256 "5a72f9494aba6631401feef4e43b7c74a9de52fe0f5a2fb029f57126ab9fd97c"
+      url "https://github.com/gmartsenkov/httpee/releases/download/v0.1.5/httpee-aarch64-apple-darwin.tar.xz"
+      sha256 "d0895cc50229609dfdeadce7e8b09a3bdc4870b0ddf6b24ec2f83c28e170a437"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gmartsenkov/httpee/releases/download/v0.1.4/httpee-x86_64-apple-darwin.tar.xz"
-      sha256 "e35dd4b94df848d91c8d4a96e8d45139be82ecb5afdb60a74048d3bc1ce42cfd"
+      url "https://github.com/gmartsenkov/httpee/releases/download/v0.1.5/httpee-x86_64-apple-darwin.tar.xz"
+      sha256 "a0a043401c82a508ae0ed2207a032c5d680c3d058696d83af6e97e29c129dd7f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/gmartsenkov/httpee/releases/download/v0.1.4/httpee-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "94120cb4e89f3936d63bb599993874bea7269617cf44d7828086f65e27c7f11d"
+      url "https://github.com/gmartsenkov/httpee/releases/download/v0.1.5/httpee-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "802a708ba1e4a9a654ee327156c4a5583b4d76ac62e8929e3994813de5562160"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gmartsenkov/httpee/releases/download/v0.1.4/httpee-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "15e89f4058d5838fcfa4536dd49f9e739f7732f6912e010542cc85936b954a94"
+      url "https://github.com/gmartsenkov/httpee/releases/download/v0.1.5/httpee-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "5c04349768d23ca1b97f43beb77b3fd3dd0bc4f1821fbe42be5dbe01865314e3"
     end
   end
   license "MIT"
